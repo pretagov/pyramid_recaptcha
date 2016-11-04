@@ -1,0 +1,3 @@
+<input type="hidden" name="__start__" value="${field.name}:mapping"/>
+${cstruct}
+<input type="hidden" name="__end__" value="${field.name}:mapping"/>

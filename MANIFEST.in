@@ -1,0 +1,2 @@
+include *.rst
+recursive-include pyramid_recaptcha/templates *
