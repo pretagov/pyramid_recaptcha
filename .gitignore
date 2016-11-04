@@ -27,3 +27,5 @@ jyenv/
 pypyenv/
 env*/
 venv/
+.Python
+pip-selfcheck.json
