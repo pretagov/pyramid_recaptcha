@@ -4,7 +4,7 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix adding templates to search path [instification]
 
 
 1.0 (2016-11-04)
