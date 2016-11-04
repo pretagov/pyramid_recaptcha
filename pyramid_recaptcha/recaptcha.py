@@ -22,7 +22,6 @@ def deferred_recaptcha_widget(node, kw):
             template = readonly and self.readonly_template or self.template
             settings = self.request.registry.settings
             public_key = settings['pyramid_recaptcha.public_key']
-            import pdb; pdb.set_trace()
             return field.renderer(template,
                                   field=field,
                                   cstruct=cstruct,

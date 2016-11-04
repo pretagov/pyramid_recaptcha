@@ -3,28 +3,11 @@ import os
 from setuptools import find_packages
 from setuptools import setup
 
-
-def read_requirements(filename):
-    path = os.path.join(here, 'requirements', filename)
-    with open(path) as fp:
-        requirements = []
-        for req in filter(bool, fp.readlines()):
-            req = req.strip()
-            if req.startswith('-r'):
-                filename = req[2:].strip()
-                requirements.extend(read_requirements(filename))
-            else:
-                requirements.append(req)
-    return requirements
-
-
 project = 'pyramid_recaptcha'
 version = '1.0'
 
 here = os.path.abspath(os.path.dirname(__file__))
-
 README = open(os.path.join(here, 'README.rst')).read()
-
 CHANGES = open(os.path.join(here, 'CHANGES.rst')).read()
 
 requires = [
