@@ -18,7 +18,7 @@ and edit `production.ini` in your Pyramid application to add::
     pyramid_recaptcha.private_key = your_private_key
 
 
-Add the widget to a form:
+Add the widget to a form::
 
     import colander
     from pyramid_recaptcha import deferred_recaptcha_widget
@@ -29,6 +29,7 @@ Add the widget to a form:
                                       title='Verify you are human',
                                       widget=deferred_recaptcha_widget)
 
-Bind the `request` variable when rendering the form:
+
+Bind the `request` variable when rendering the form::
 
     MyForm().bind(request=self.request)
