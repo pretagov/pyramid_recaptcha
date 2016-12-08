@@ -1,6 +1,6 @@
 from pkg_resources import resource_filename
 from deform import Form
-from recaptcha import deferred_recaptcha_widget  # noqa
+from .recaptcha import deferred_recaptcha_widget  # noqa
 
 
 def add_search_path():
