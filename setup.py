@@ -4,7 +4,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 project = 'pyramid_recaptcha'
-version = '1.0.2'
+version = '1.0.3.dev0'
 
 here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.rst')).read()
