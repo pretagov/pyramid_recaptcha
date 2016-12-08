@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.2 (unreleased)
+1.0.2 (2016-12-08)
 ------------------
 
 - Force relative import, fixes Python 3 [miohtama]
